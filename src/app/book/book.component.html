@@ -1,0 +1,6 @@
+<h2>Libros</h2>
+<p>Nombre: {{ name }} </p>
+<p>Autor: {{ author }} </p>
+<p>Año: {{ year }} </p>
+<p>Unidades disponibles: {{ getavailableUnits() }} </p>
+<p>Esta Disponible: {{ (getavailableUnits()>0)? "SI" : "NO" }}</p>
